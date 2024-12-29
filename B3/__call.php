@@ -6,4 +6,4 @@ class MyClass{
 }
 //ss
 $myClass = new MyClass();
-$myClass->h(1,2,3,4,5);
+$myClass->h(1,2,3,4,5);//
