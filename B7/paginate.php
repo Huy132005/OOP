@@ -2,7 +2,7 @@
 
 require_once './connectDB.php';
 
-$limit = 3; // Số lượng bản ghi trên mỗi trang
+$limit = 2; // Số lượng bản ghi trên mỗi trang
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1; // Lấy số trang hiện tại
 $offset = ($page - 1) * $limit;
 
